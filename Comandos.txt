@@ -1,0 +1,32 @@
+dotnet new console = novo app do tipo console
+ctrl + shift + p = opções do vscode
+csc = compila nome.cs
+
+
+.csproj =  configuração do projeto
+
+bool b;
+char c;
+byte b3;
+string s;
+int i;
+long l;
+float f;
+double d;
+decimal d2;
+
+
+
+int i;
+int i2 = i = 40;
+//incremento
+i2++;
+
+int i3 = i = 300;
+//decremento
+i3--;
+
+//ternario
+i = i2 == 52 ? 10 : 200;
+//Condição, caso V retorne 10, caso F retorne 200
+//C# é estática, ou seja, uma vez declada como int, não é possível atribuir uma str a essa var em tem

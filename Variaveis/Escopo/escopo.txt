@@ -1,0 +1,2 @@
+Até onde a variável pode ser acessada.
+Visibilidade da var.
