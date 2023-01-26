@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\bruno\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\bruno.alves\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\C#\\A2\\A2.csproj",
+      "projectUniqueName": "C:\\Users\\bruno.alves\\OneDrive - DB - MEDICINA DIAGNOSTICA LTDA\\Área de Trabalho\\Learning\\C#\\SchoolSharp\\A2\\A2.csproj",
       "projectName": "A2",
-      "projectPath": "D:\\C#\\A2\\A2.csproj",
-      "packagesPath": "C:\\Users\\bruno\\.nuget\\packages\\",
-      "outputPath": "D:\\C#\\A2\\obj\\",
+      "projectPath": "C:\\Users\\bruno.alves\\OneDrive - DB - MEDICINA DIAGNOSTICA LTDA\\Área de Trabalho\\Learning\\C#\\SchoolSharp\\A2\\A2.csproj",
+      "packagesPath": "C:\\Users\\bruno.alves\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bruno.alves\\OneDrive - DB - MEDICINA DIAGNOSTICA LTDA\\Área de Trabalho\\Learning\\C#\\SchoolSharp\\A2\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\bruno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\bruno.alves\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
