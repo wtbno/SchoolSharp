@@ -1,0 +1,3 @@
+Operadores bitwise são utilizados quando precisamos realizar operações em nível de bits com números inteiros, ou seja, trabalhar com sua representação binária.
+
+Caso ambos os operandos sejam strings, esses operadores irão trabalhar com os valores ASCII de seus caracteres.
