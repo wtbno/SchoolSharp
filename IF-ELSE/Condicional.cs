@@ -22,7 +22,7 @@ class Condicional
         mediaFinal = soma / 2;
 
         System.Console.WriteLine("A sua média final é {0}", mediaFinal);
-        if (mediaFinal == 7)
+        if (mediaFinal >= 7)
         {
             System.Console.WriteLine("Você foi aprovado");
         }
