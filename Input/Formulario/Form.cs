@@ -2,12 +2,14 @@ using System;
 
 class Form
 {
+    enum Form
+    { K, Na, Ur, Creat, Tgo, Tgp, ColT, TSH, T3, T4 };
     static void Main(string[] args)
     {
         string nome;
         int idade;
         string cidade;
-        string[] exames = new string[10] { "K", "Na", "Ur", "Creat", "Tgo", "Tgp", "ColT", "TSH", "T3", "T4" };
+
 
         // tipo[] nomeDoArray = new tipo[tamanho_do_array];
 

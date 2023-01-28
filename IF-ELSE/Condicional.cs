@@ -1,16 +1,36 @@
 using System;
 
-static void Main(string[] args)
-{
-    int a = 15;
-    int b = 97;
-    if (a + b > 100)
-    {
-        System.Console.WriteLine("O valor é superior a 100");
-    }
 
-    else
+class Condicional
+{
+    static void Main(string[] args)
     {
-        System.Console.WriteLine("O valor é inferior a 100");
+        float nota1;
+
+        float nota2;
+
+        //Para atribuir essa váriavel, foi necessário subir o trecho de cod.
+        //para que ao usuário inserir o valor da nota a mesma fosse declarada.
+        System.Console.WriteLine("Insira a nota da sua primeira prova: ");
+        nota1 = float.Parse(Console.ReadLine());
+        System.Console.WriteLine("Insira a nota da sua segunda prova: ");
+        nota2 = float.Parse(Console.ReadLine());
+
+
+        float mediaFinal, soma;
+        soma = (nota1 + nota2);
+        mediaFinal = soma / 2;
+
+        System.Console.WriteLine("A sua média final é {0}", mediaFinal);
+        if (mediaFinal == 7)
+        {
+            System.Console.WriteLine("Você foi aprovado");
+        }
+
+        else
+        {
+            System.Console.WriteLine("Você foi reprovado");
+            return;
+        }
     }
 }
