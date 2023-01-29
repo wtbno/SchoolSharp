@@ -23,9 +23,14 @@ class Condicional
 
         System.Console.WriteLine("A sua média final é {0}", mediaFinal);
         if (mediaFinal >= 7)
-        {
-            System.Console.WriteLine("Você foi aprovado");
-        }
+            if (mediaFinal >= 9)
+            {
+                System.Console.WriteLine("Parabéns, você obteve uma boa nota final!!!");
+            }
+            else
+            {
+                System.Console.WriteLine("Você foi aprovado");
+            }
         else if (mediaFinal >= 5)
         {
             System.Console.WriteLine("Você está de recuperação");
