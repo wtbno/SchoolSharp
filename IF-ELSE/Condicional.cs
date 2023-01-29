@@ -24,6 +24,7 @@ class Condicional
         System.Console.WriteLine("A sua média final é {0}", mediaFinal);
         if (mediaFinal >= 7)
             if (mediaFinal >= 9)
+            //If aninhado
             {
                 System.Console.WriteLine("Parabéns, você obteve uma boa nota final!!!");
             }
