@@ -26,7 +26,10 @@ class Condicional
         {
             System.Console.WriteLine("Você foi aprovado");
         }
-
+        else if (mediaFinal >= 5)
+        {
+            System.Console.WriteLine("Você está de recuperação");
+        }
         else
         {
             System.Console.WriteLine("Você foi reprovado");
